@@ -18,3 +18,4 @@
     }
 
 ?>
+sql命令：update user set pwd='tony123' where id='tony'
