@@ -17,3 +17,5 @@
         echo "<meta http-equiv=REFRESH content='3, url=18.user.php'>";
     }
 ?>
+sql命令: insert into 表格名稱(欄位1,欄位2) values(欄位1的值,欄位2的值)
+insert into user(id,pwd) values('tony', 'tony1234')
