@@ -18,3 +18,4 @@
     }
 
 ?>
+sql命令：update bulletin set title='標題', content='內容', time='2024-02-29', type=1} where bid=12
