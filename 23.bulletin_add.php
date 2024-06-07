@@ -18,3 +18,5 @@
         }
     }
 ?>
+sql命令：insert into bulletin(title, content, type, time) values ('標題','內容',1,'2024-02-29')
+type型態為int(整數)，值不需要加上單引號
