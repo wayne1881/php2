@@ -24,3 +24,8 @@
     ?> 
     </body>
 </html>
+修改使用者跟刪除使用者一樣，可透過GET方式，傳送使用者id給php程式
+修改使用者，需要建立與新增使用者相同的介面，讓使用者更新資訊。
+一般來說，帳號資訊不許更改
+使用$_GET["id"]，擷取上個頁面用GET方法傳過來，變數名稱為id的參數(tony)
+sql命令：update user set pwd='tony123' where id='tony'
