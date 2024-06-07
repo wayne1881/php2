@@ -17,3 +17,7 @@
         echo "<meta http-equiv=REFRESH content='3, url=11.bulletin.php'>";
     }
 ?>
+把滑鼠放在『刪除』之上，可以看到左下角的連結
+透過呼叫28.user_delete.php，並且使用GET資料傳遞方式，把bid=12這個參數傳遞過去
+sql命令： delete from bulletin where bid=12
+使用$_GET["bid"]，擷取上個頁面用GET方法傳過來，變數名稱為bid的參數(12)
