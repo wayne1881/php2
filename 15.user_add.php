@@ -27,3 +27,5 @@ else{
 接下來呼叫新增使用者的php檔案，把使用者加入資料庫
 最後回到使用者管理介面
 呼叫15.user_add.php來新增使用者
+sql命令: insert into 表格名稱(欄位1,欄位2) values(欄位1的值,欄位2的值)
+insert into user(id,pwd) values('tony', 'tony1234')
