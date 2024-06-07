@@ -17,3 +17,7 @@
         echo "<meta http-equiv=REFRESH content='3, url=18.user.php'>";
     }
 ?>
+把滑鼠放在『刪除』之上，可以看到左下角的連結
+透過呼叫17.user_delete.php，並且使用GET資料傳遞方式，把id=tony這個參數傳遞過去
+sql命令：delete from user where id='tony'
+使用$_GET["id"]，擷取上個頁面用GET方法傳過來，變數名稱為id的參數(tony)
